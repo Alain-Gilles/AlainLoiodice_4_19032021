@@ -740,6 +740,64 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.txt-baspage {
+    font-size:16px!important;
+    margin-bottom:20px;
+    color: rgba(255, 255, 255, .9)!important;
+}
+
+.icon-sociaux {
+    color: rgba(255, 255, 255, .9)!important;
+}
+
+.icon-sociaux:hover {
+    color: rgba(255, 255, 255, .6)!important;
+}
+
+.txt-chouette {
+    color: white!important;
+    font-weight:bold;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #272423;
+ 
+}
+
+.tc-gris {
+    /*color: #FFFFFF!important;*/
+    color:rgba(255, 255, 255, .9)!important;;
+    /*font-size:22px;*/
+    font-weight:500;
+    /*background-color: rgba(243, 151, 108, 0.9);*/
+    background-color: rgba(39, 36, 35, 0.9);
+    width:50%;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 0 auto;
+    border-radius:20px;
+}
+
+.txt-citation-1 {
+    color: rgba(39, 36, 35, 0.9); 
+    font-size: 20px;
+    font: helvetica;
+}
+
+.hausse-vente {
+    font-weight: bold;
+}
+
+.maj { 
+    text-transform: uppercase;
+}
+
+.auteur-sitation {
+    font-size: 14px;
+}
+
+.marg-reseaux-soc {
+    margin-bottom:20px;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -781,27 +839,6 @@ h4 {
     /*color: #f3976c!important;*/
     /*color: #AA2E00!important;*/
     color: #272423!important;
-}
-
-.txt-chouette {
-    color: white!important;
-    font-weight:bold;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: #272423;
- 
-}
-
-.tc-gris {
-    /*color: #FFFFFF!important;*/
-    color:#272423!important;;
-    /*font-size:22px;*/
-    font-weight:700;
-    background-color: rgba(243, 151, 108, 0.9);
-    width:50%;
-    padding-top:5px;
-    padding-bottom:5px;
-    margin: 0 auto;
-    border-radius:20px;
 }
 
 .btn-atomic-tangerine {
