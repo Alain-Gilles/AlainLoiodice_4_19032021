@@ -772,11 +772,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    /*background-color: #F3976C;*/
+    /*background-color: #AA2E00;*/
+    background-color:#272423;
 }
 
 .tc-white {
-    color: #f3976c!important;
+    /*color: #f3976c!important;*/
+    /*color: #AA2E00!important;*/
+    color: #272423!important;
+}
+
+.txt-chouette {
+    color: white!important;
+    font-weight:bold;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #272423;
+ 
 }
 
 .tc-gris {
@@ -793,14 +805,17 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    /*color: #FFFFFF!important;*/
-    color: #272423!important;
+    /*background: #F3976C;*/
+    /*background: #AA2E00;*/
+    background:#272423;
+    color: #FFFFFF!important;
+    /*color: #272423!important;*/
     
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    /*background: #c27956!important;*/
+    background: #7E7E7E!important;
     color: #FFFFFF!important;
 }
 
@@ -813,11 +828,13 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    /*color: #F3976C!important;*/
+    color: #272423!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    /*color: #c27956!important;*/
+    color: #7E7E7E!important;
 }
 
 .icon-dark-slate-blue {
