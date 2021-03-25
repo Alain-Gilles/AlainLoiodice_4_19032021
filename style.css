@@ -794,6 +794,18 @@ h4 {
     font-size: 14px;
 }
 
+.style-h3surh2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
+.hors-ecran {
+    position:absolute;
+    left:-99999rem;
+}
+
 .marg-reseaux-soc {
     margin-bottom:20px;
 }
