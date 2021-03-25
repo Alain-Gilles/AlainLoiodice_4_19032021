@@ -804,6 +804,9 @@ h4 {
 .hors-ecran {
     position:absolute;
     left:-99999rem;
+    background-color: black;
+    color:white;
+    font-size:15px;
 }
 
 .marg-reseaux-soc {
