@@ -813,6 +813,14 @@ h4 {
     font-size: 18px;
 }
 
+.h3-size {
+    font-size: 16px;
+}
+
+.p-size {
+    font-size: 13px;
+}
+
 .lienbp {
     font-size: 14px;
     color:rgba(255, 255, 255, .8)!important;
