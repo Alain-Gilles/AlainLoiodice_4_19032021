@@ -740,6 +740,11 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.couleur-contact {
+    color: #E28B5F!important;
+    font-size:18px;
+}
+
 .txt-baspage {
     font-size:16px!important;
     margin-bottom:20px;
@@ -807,6 +812,16 @@ h4 {
     background-color: black;
     color:white;
     font-size:15px;
+}
+
+.tel-mail {
+    padding-left: 6px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.sautligne {
+    margin-top: 15px;
 }
 
 .police18 {
