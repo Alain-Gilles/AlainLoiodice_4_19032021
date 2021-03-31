@@ -35,7 +35,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="50" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="la chouette agence, agence web à Lyon" height="50" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -83,27 +83,20 @@
 				<!--<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">-->
 				<form id="form_1" novalidate >
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="name">Nom</label>
+						<input id="name" name="name" type="text" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="email">Adresse email</label>
+						<input id="email" name="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="input_504">Comment nous avez-vous connu ?</label>
+						<input class="form-control" namee="inpit_504" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -162,6 +155,31 @@
 				</div>
 			</div>
 		</div>
+		<!-- Ajout bloc contact-->
+		<div class="row justify-content-between sautligne">
+			<div class="col-sm-4">
+				<p class="couleur-contact text-center">Contactez-Nous</p>
+				<p class="lienbp text-center"><strong>La chouette agence</strong><br>
+					&nbsp2, place Sathonay<br>
+					&nbsp&nbsp69001 Lyon<br>
+					du lundi au samedi<br>
+					de 9h à 18h</p>
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<p class="couleur-contact text-center">Telephone</p>
+				<p class="text-center">
+					<a id="contact-tel" class="social" href="tel:+33499887766" title="numero telephone agence"><span class="fa fa-phone icon-sociaux" aria-hidden="true"></span><span class="lienbp tel-mail"><strong>tel:0499887766</strong></span></a>
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<p class="couleur-contact text-center">E-mail</p>
+				<p class="text-center">
+					<a class="social" href="mailto:contact@lachouetteagence.com" title="contactez-nous par mail"><span class="fa fa-mail-reply icon-sociaux" aria-hidden="true"></span><span class="lienbp tel-mail"><strong>e-mail:contact@lachouetteagence.com</strong></span></a>
+				</p>
+			</div>
+		</div>
+		<!-- Fin Ajout         -->
 	</div>
 </div>
 <!-- Footer - bloc-8 END -->
