@@ -770,18 +770,12 @@ h4 {
 .txt-chouette-h2 {
     color: white!important;
     font-size:28px;
-    /*font-weight:bold;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: #272423;*/
  
 }
 
 .tc-gris {
-    /*color: #FFFFFF!important;*/
     color:rgba(255, 255, 255, .9)!important;;
-    /*font-size:22px;*/
     font-weight:500;
-    /*background-color: rgba(243, 151, 108, 0.9);*/
     background-color: rgba(39, 36, 35, 0.9);
     width:50%;
     padding-top:5px;
